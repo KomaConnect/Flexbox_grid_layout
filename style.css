@@ -5,6 +5,20 @@
 body{
     background-color: hsl(0, 0%, 95%);
 }
+header a{
+    background-color: green;
+    border: bold, 5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    height: 100px;
+}
+header a:hover{
+    color: rgb(106, 204, 103);
+}
 
 .main{
     width: 80%;
