@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 50px;
+}
+
+/* styling for the sedan */
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 30%;
+    box-sizing: border-box;
+    margin: bottom 80px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.sedan img{
+    margin-bottom: 20px;
+}
+.sedan h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big shoulder display;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sedan p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: lexend Deca;
+    font-weight: 400;
+    
+}
+.sedan .btn{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 100px;
+    color: hsl(31, 77%, 52%);;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* styling for the suv */
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 30%;
+    box-sizing: border-box;
+    margin: bottom 80px;
+}
+.suv img{
+    margin-bottom: 20px;
+}
+.suv h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big shoulder display;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.suv p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: lexend Deca;
+    font-weight: 400;
+    
+}
+.suv .btn{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 100px;
+    color:  hsl(184, 100%, 22%);;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* styling for the luxury */
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 30%;
+    box-sizing: border-box;
+    margin: bottom 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.luxury img{
+    margin-bottom: 20px;
+}
+.luxury h2{
+    color: hsl(0, 0%, 95%);
+    font-family: Big shoulder display;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.luxury p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: lexend Deca;
+    font-weight: 400;
+    
+}
+.luxury .btn{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 100px;
+    color: hsl(179, 100%, 13%);;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
